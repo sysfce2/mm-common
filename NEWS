@@ -1,3 +1,27 @@
+mm-common 1.0.8 (2026-07-01)
+
+* doc-reference.am: Distribute .svg files from the HTML directory
+  (Kjell Ahlstedt)
+
+Skeletonmm:
+* Add skeletonmm/tools/generate_from_gir.sh
+  (Kjell Ahlstedt)
+
+Meson build:
+* Allow -Duse-network=if-no-local-tag-file (new default value)
+  (Kjell Ahlstedt)
+
+Additions to version 1.0.7 news (added 2026-07-01)
+
+Documentation:
+* Replace gtkmm.org by gtkmm.gnome.org.
+  (Kjell Ahlstedt)
+
+Skeletonmm and Meson build:
+* Require meson >= 0.62.0
+  (Kjell Ahlstedt)
+
+
 mm-common 1.0.7 (2025-06-11)
 
 * Don't specify colors in util/doxygen-extra.css.
